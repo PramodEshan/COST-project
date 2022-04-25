@@ -1,12 +1,71 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Home Page</title>
+	<link rel="stylesheet" href="homecss.css">
+	<style>
+		position:relative;
+		float: left;
+		left:15%;
+		width:15%;
+		padding-right:5%;
+		padding-top:20%;
+	</style>
 </head>
-<body>
-    <p>GOODS PRICE - Sri Lanka Standard Goods Prices</p>
-    <p> testing temp branhc</p>
-
+<body bgcolor="#28085d">
+		<div class="_topbar">
+			<img class="_page_logo" src="./img/logos/logo.png">
+			<div class="_profile_control">
+				<a href="homepage.html"><img class="_profile_control_img" src="./img/icon/home.png"></a>
+				<a href="userlogin.html"><img class="_profile_control_img" src="./img/icon/login.png"></a>
+				<form><input type="image" class="_profile_control_img" src="./img/icon/back.png" onclick="history.back()"/></form>
+			</div>
+		</div>
+		<div>
+			<div class="_navigation_bar">
+				<div class="_navigation_pages">
+					<a class="_page" href="homepage.html"><p>HOME</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="category.html"><p>ALL CATEGORY<br>(Detalied Report)</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="Search.html"><p>SEARCH</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="Report.html"><p>REPORT</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="notice.html"><p>NOTICES</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="contacs.html"><p>CONTACS US</p></a>
+				</div>
+				<div class="_navigation_pages">
+					<a class="_page" href="aboutus.html"><p>ABOUT US</p></a>
+				</div>
+			</div>
+			<div class="_price_list">
+				<iframe src="pricelist.html" width="100%" height="100%"></iframe>
+			</div>
+		</div>
+		<div class="_footer">
+			<div class="_footer_links">
+				<p class="p2">Useful Sites<hr class="hr2"><br><br>
+				<a class="_footer_cont" href="https://www.treasury.gov.lk/">Ministry of Finance</a><br>
+				<a class="_footer_cont" href="https://www.cse.lk/">Colombo Stock Exchange</a><br>
+				<a class="_footer_cont" href="https://www.cbsl.gov.lk/">Central Bank of Sri Lanka</a><br>
+				<a class="_footer_cont" href="http://slaasmb.gov.lk/">Sri Lanka Accounting and Auditing Standards Monitoring Board</a>
+			</div>
+			<div class="_footer_links">
+				<p class="p2">Follow Us<hr class="hr2"><br><br>
+				<a class="_footer_cont" href="https://www.facebook.com/" target="_blank"><div class="_social_links"><img class="_social_img _blue" src="./img/icon/fb1.png"></div>&nbsp Facebook</a><br>
+				<a class="_footer_cont" href="https://twitter.com/" target="_blank"><div class="_social_links"><img class="_social_img _blue"src="./img/icon/t1.png"></div>&nbsp Twitter</a><br>
+				<a class="_footer_cont" href="https://www.youtube.com/" target="_blank"><div class="_social_links"><img class="_social_img _youtube" src="./img/icon/y1.png"></div>&nbsp YouTube</a><br>
+				<a class="_footer_cont" href="https://www.linkedin.com/" target="_blank"><div class="_social_links"><img class="_social_img _blue" src="./img/icon/ln1.png"></div>&nbsp Linkedln</a>
+			</div>
+			<hr class="hr1">
+			<p class="p1">&copy; GOODS PRICE.lk (PVT)Ltd. Sri Lanka, 2022. All Rights Reserved</p>
+		</div>
 </body>
 </html>

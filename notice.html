@@ -1,10 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--DOCTYPE html-->
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Notice</title>
+	<link rel="stylesheet" href="homecss.css">
+	<style>
+		body{
+				background-color:#28085d;
+				ont-family: sans-serif;
+				color: rgb(220,220,220);
+				width: 100vw;
+				overflow-x: hidden;
+		}
+		p._title{
+					font-family:"Oswald regular";
+					text-align:center;
+					color:red;
+					font-size:30px;
+		}
+		div._notice{
+					position:relative;
+					float:left;
+					left:3%;
+					border:solid red;
+					padding:30px;
+					width:90%;
+					height:30%;
+		}
+		div._home_link{
+					position:relative;
+					float:left;
+					left:5%;
+					width:90%;
+					height:30%;
+					font-family:"Oswald regular";
+					text-align:center;
+					font-size:20px;
+		}
+		p._topic{
+					font-family:"Oswald regular";
+					font-size:30px;
+					color:white;
+					text-align:center;
+		}
+		p._notice_content{
+					color:lightgray;
+					font-size:20px;
+		}
+		a{
+					text-decoration:none;
+					color:white;
+		}
+		a:hover{
+					color:red;
+		}
+		a:active{
+					color:yellow;
+		}
+		a._link{
+			font-family:"Oswald regular";
+			text-align:center;
+			color:#28085d;
+			
+		}
+	</style>
 </head>
 <body>
-
+	<div class="_topbar">
+		<img class="_page_logo" src="./img/logos/logo.png">
+		<div class="_profile_control">
+			<a href="homepage.html"><img class="_profile_control_img" src="./img/icon/home.png"></a>
+			<a href="userlogin.html"><img class="_profile_control_img" src="./img/icon/login.png"></a>
+			<form><input type="image" class="_profile_control_img" src="./img/icon/back.png" onclick="history.back()"/></form>
+		</div>
+	</div>
+	<p class="_title" class="_title">NOTICE</p>
+	<div class="_notice">
+		<p class="_topic">Upcoming Price Changes</p>
+		
+		<p class="_notice_content">In Washington on 18 April, the IMF will ask the Sri Lankan 
+		delegation headed by finance minister Ali Sabry for a credible repayment plan. The IMF 
+		asked Sri Lanka to remove price controls and allow market forces to determine food and 
+		energy prices. This will cause cost-push inflation and result in higher prices of all 
+		goods and services.
+		</p>
+		<a href="https://www.newswire.lk/2022/04/17/factum-perspective-sri-lanka-braces-for-tougher-times-as-imf-talks-begin/" target="_blank"><u><p>Click for More Details</p></u></a>
+	</div>
+	<div class="_home_link">
+		<a class="_linl" href="homepage.html"><p><-HOME</p></a>
+	</div>
 </body>
 </html>

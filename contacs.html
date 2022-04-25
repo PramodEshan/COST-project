@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact Us</title>
+	<link rel="stylesheet" href="homecss.css">
+	<style>
+		*{
+				font-family:"Oswald regular";
+				color:white;
+		}
+		#big_text{
+				font-size:50px;
+				text-align:center;				
+		}
+		#small_text{
+				font-size:20px;
+				text-align:center;
+		}
+		div._background{
+				position:relative;
+				float:right;
+				right:10%;
+				background-color:#311432;
+				width:80%;
+				border-radius: 20px;
+		}
+		table{
+				line-height: 1.7em;
+		}
+		td._img{
+				text-align:center;
+				padding-top: 30px;
+				padding-left: 80px;
+				padding-right: 80px;
+		}
+		td._img2{
+				text-align:center;
+				padding-left: 30px;
+		}
+		td._img:hover{
+				padding-top: 20px;
+		}
+		img._social_img2{
+				width:40px;
+				border-radius: 5px;
+		}
+	
+		img._blue2:hover{
+				background: #1260cc;
+		}
+		
+		img._youtube2:hover{
+				background: red;	
+		}
+	</style>
 </head>
-<body>
-
+<body bgcolor="#28085d">
+	<div class="_topbar">
+		<img class="_page_logo" src="./img/logos/logo.png">
+		<div class="_profile_control">
+			<a href="homepage.html"><img class="_profile_control_img" src="./img/icon/home.png"></a>
+			<a href="userlogin.html"><img class="_profile_control_img" src="./img/icon/login.png"></a>
+			<form><input type="image" class="_profile_control_img" src="./img/icon/back.png" onclick="history.back()"/></form>
+		</div>
+	</div>
+	<div class="_background">
+		<center>
+		<table border="0">
+			<tr>
+				
+				<td colspan="7">
+					<p id="big_text">Contact Us</p>
+					<p id="small_text">Send us an e-mail, give us a call or reach us through social media.</p>
+					<hr>
+				</td>
+			</tr>
+			<tr >
+				<td class="_img" rowspan="2">
+					<img src="./img/icon/phone.png">
+					<p>+94 771 234 567</p>
+				</td>
+				<td class="_img" rowspan="2">
+					<img src="./img/icon/email.png">
+					<p>srilankagoodsprice@gmail.com</p>
+				</td>
+				<td class="_img" colspan="4">
+					<img src="./img/icon/social.png"><br>
+				</td>
+			</tr>
+			<tr>
+				<td class="_img2"><a href="https://www.facebook.com/" target="_blank"><img class="_social_img2 _blue2" src="./img/icon/fb1.png"></a></td>
+				<td class="_img2"><a href="https://twitter.com/" target="_blank"><img class="_social_img2 _blue2" src="./img/icon/t1.png"></a></td>
+				<td class="_img2"><a href="https://www.youtube.com/" target="_blank"><img class="_social_img2 _youtube2" src="./img/icon/y1.png"></a></td>
+				<td class="_img2"><a href="https://www.linkedin.com/" target="_blank"><img class="_social_img2 _blue2" src="./img/icon/ln1.png"></a></td>
+			</tr>
+		</table>
+		</center><br>
+	</div>
 </body>
 </html>

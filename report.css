@@ -1,0 +1,68 @@
+div._body{
+				position:absolute;
+				width:100%
+}
+
+div._page_title{
+				font-family:"Oswald semibold";
+				text-align:center;
+				color: white;
+				font-size:30px;
+}
+
+table{
+				position:relative;
+				left:30%;
+				width:40%;
+				font-family:"Oswald Regular";
+				font-size:20px;
+}
+
+td{
+				padding-top:30px;
+}
+
+input,textarea{
+				width:100%;
+}
+
+table{
+				color: white;
+}
+
+input._submit_button{
+				font-weight:bold;
+				width:50%;
+				background-color: red;
+				border: none;
+				color: white;
+				padding: 20px;
+				font-size: 16px;
+				cursor: pointer;
+				border-radius: 20px;
+}
+
+input._submit_button:hover{
+				width:50%;
+				background-color: #4CAF50;
+				border: none;
+				color: white;
+				padding: 20px;
+				font-size: 16px;
+				cursor: pointer;
+				border-radius: 20px;
+				margin: 4px;
+}
+
+a{
+				text-decoration:none;
+}
+p._back_button{
+				font-family:Oswald;
+				font-size:50px;
+}
+
+p._back_button:hover{
+				font-size:40px;
+				color:red;
+}

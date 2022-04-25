@@ -1,10 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--DOCTYPE html-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Reort</title>
+	<link rel="stylesheet" href="report.css">
+	<link rel="stylesheet" href="homecss.css">
 </head>
-<body>
-
+<body bgcolor="#28085d">
+	<div class="_topbar">
+		<img class="_page_logo" src="./img/logos/logo.png">
+		<div class="_profile_control">
+			<a href="homepage.html"><img class="_profile_control_img" src="./img/icon/home.png"></a>
+			<a href="userlogin.html"><img class="_profile_control_img" src="./img/icon/login.png"></a>
+			<form><input type="image" class="_profile_control_img" src="./img/icon/back.png" onclick="history.back()"/></form>
+		</div>
+	</div>
+	<div class="_body">
+		<div class="_page_title">
+		<p>Report A Place that selling goods illeaglly</p>
+		</div>
+		<div>
+		<form action="./Reportsubmit.html">
+			<table border="0">
+				<tr>
+					<td>
+						<label>Store Name :</label>
+					</td>
+					<td>
+						<input type="text" name="store" id="storename">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Address :</label>
+					</td>
+					<td>
+						<input type="text" name="address" id="storeaddress">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Explain complain in details :</label>
+					</td>
+					<td>
+						<textarea type="text"name="complain" id="complain"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<center><input class="_submit_button" type="submit" value="Submit Complain"></center>
+					</td>
+				</tr>
+			</table>
+		</form>
+		</div>
+	<div>
 </body>
 </html>

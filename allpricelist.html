@@ -1,0 +1,575 @@
+<!--DOCTYPE html-->
+<html lang="en">
+<head>
+    <title>Price List</title>
+	<link rel="stylesheet" href="pricelistcss.css">
+</head>
+<body>
+	<table border="0" class="_caption">
+		<tr>
+			<td class="_title" colspan="2"><p>Retail Prices:</p>
+			</td>
+			<td class="_title" colspan="3"><p><div id="current_date"></p>
+				<script>
+					date = new Date();
+					year = date.getFullYear();
+					month = date.getMonth() + 1;
+					day = date.getDate();
+					document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+				</script>
+			</td>
+		</tr>
+		<tr class="_topics1">
+			<td rowspan="2"><p>Item</p>
+			</td>
+			<td rowspan="2"><p>Unit</p>
+			</td>
+			<td colspan="3"><p>Prices</p>
+			</td>
+		</tr>
+		<tr class="_topics2">
+			<td><p>Pettah</p>
+			</td>
+			<td><p>Dambulla</p>
+			</td>
+			<td><p>Narahenpita</p>
+			</td>
+		</tr>
+		<tr class="_sub_topics">
+			<td colspan="5"><p>V E G E T A B L E S</p>
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Beans
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">200.00
+			</td>
+			<td class="_prices">165.00
+			</td>
+			<td class="_prices">240.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Carrot
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">190.00
+			</td>
+			<td class="_prices">175.00
+			</td>
+			<td class="_prices">240.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Cabbage
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">100.00
+			</td>
+			<td class="_prices">95.00
+			</td>
+			<td class="_prices">180.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Tomato
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">175.00
+			</td>
+			<td class="_prices">78.00
+			</td>
+			<td class="_prices">200.00
+			</td>
+		</tr>
+		<tr>
+			<td id="name">Brinjal
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">250.00
+			</td>
+			<td class="_prices">175.00
+			</td>
+			<td class="_prices">280.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Pumpkin
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">90.00
+			</td>
+			<td class="_prices">68.00
+			</td>
+			<td class="_prices">120.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Snake gourd
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">160.00
+			</td>
+			<td class="_prices">105.00
+			</td>
+			<td class="_prices">240.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Green Chilli
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">550.00
+			</td>
+			<td class="_prices">495.00
+			</td>
+			<td class="_prices">600.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Lime
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">255.00
+			</td>
+			<td class="_prices">315.00
+			</td>
+			<td class="_prices">400.00
+			</td>
+		</tr>
+		<tr class="_sub_topics">
+			<td colspan="5"><p>O T H E R</p>
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Red Onion (Local)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">360.00
+			</td>
+			<td class="_prices">270.00
+			</td>
+			<td class="_prices">400.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Red Onion (lmp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">360.00
+			</td>
+			<td class="_prices">285.00
+			</td>
+			<td class="_prices">440.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Big Onion (Local) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">n.a.
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Big Onion (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">215.00
+			</td>
+			<td class="_prices">188.00
+			</td>
+			<td class="_prices">220.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Potato (Local)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">250.00
+			</td>
+			<td class="_prices">188.00
+			</td>
+			<td class="_prices">280.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Potato (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">180.00
+			</td>
+			<td class="_prices">178.00
+			</td>
+			<td class="_prices">200.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Dried Chilli (Imp)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">1,600.00
+			</td>
+			<td class="_prices">1,585.00
+			</td>
+			<td class="_prices">1,560.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Coconut (Avg.) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">80.00
+			</td>
+			<td class="_prices">90.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Coconut oil
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">820.00
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">815.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Dhal
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">490.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Sugar (White) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">225.00
+			</td>
+			<td class="_prices">230.00
+			</td>
+			<td class="_prices">230.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Egg (White) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">27.00
+			</td>
+			<td class="_prices">27.00
+			</td>
+			<td class="_prices">28.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Katta
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">1,700.00
+			</td>
+			<td class="_prices">2,100.00
+			</td>
+			<td class="_prices">2,300.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Sprat (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">1,300.00
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">n.a.
+			</td>
+		</tr>
+		<tr class="_sub_topics">
+			<td colspan="5"><p>F R U I T S</p>
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Banana (Sour)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">100.00
+			</td>
+			<td class="_prices">88.00
+			</td>
+			<td class="_prices">120.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Papaw
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">140.00
+			</td>
+			<td class="_prices">98.00
+			</td>
+			<td class="_prices">240.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Pineapple
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">220.00
+			</td>
+			<td class="_prices">210.00
+			</td>
+			<td class="_prices">300.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Apple (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">110.00
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">150.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Orange (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">80.00
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">110.00
+			</td>
+		</tr>
+		<tr class="_sub_topics">
+			<td colspan="5"><p>R I C E</p>
+			</td>
+		</tr>
+		<tr class="_topics">
+			<td id="name" colspan="2"></td>
+			<td  id="name">Marandagahamula</td>
+			<td  id="name"></td>
+			<td  id="name"></td>
+		</tr>
+		<tr>
+			<td  id="name">Samba
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">205.00
+			</td>
+			<td class="_prices">215.00
+			</td>
+			<td class="_prices">230.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Nadu 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">205.00
+			</td>
+			<td class="_prices">215.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Kekulu (White)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">200.00
+			</td>
+			<td class="_prices">190.00
+			</td>
+			<td class="_prices">210.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Kekulu (Red)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">200.00
+			</td>
+			<td class="_prices">180.00
+			</td>
+			<td class="_prices">200.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Kekulu (Red)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">200.00
+			</td>
+			<td class="_prices">200.00
+			</td>
+			<td class="_prices">200.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Nadu (Imp)
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">190.00
+			</td>
+			<td class="_prices">190.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Kekulu (White) (Imp) 
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">175.00
+			</td>
+			<td class="_prices">175.00
+			</td>
+		</tr>
+		<tr class="_sub_topics">
+			<td colspan="5"><p>F I S H</p>
+			</td>
+		</tr>
+		<tr class="_topics">
+			<td id="name" colspan="3"></td>
+			<td  id="name">Negombo</td>
+			<td  id="name"></td>
+		<tr>
+			<td  id="name">Kelawalla
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">1,150.00
+			</td>
+			<td class="_prices">1,360.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Thalapath
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">1,450.00
+			</td>
+			<td class="_prices">1,560.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Balaya
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">n.a.
+			</td>
+			<td class="_prices">580.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Paraw
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">1,280.00
+			</td>
+			<td class="_prices">860.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Salaya
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">320.00
+			</td>
+			<td class="_prices">240.00
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Hurulla
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">580.00
+			</td>
+			<td class="_prices">560.00.
+			</td>
+		</tr>
+		<tr>
+			<td  id="name">Linna
+			</td>
+			<td class="_unit">Rs./kg
+			</td>
+			<td  id="name">
+			</td>
+			<td class="_prices">580.00
+			</td>
+			<td class="_prices">560.00
+			</td>
+		</tr>
+	
+	</table>
+</body>
+</html>

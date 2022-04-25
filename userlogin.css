@@ -1,0 +1,101 @@
+* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+}
+
+body {
+		  background: #28085d;
+		  font-family: 'Oswald regular';
+}
+
+div._login_form {
+		background: #fff;
+		width: 500px;
+		margin: 65px auto;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+				flex-direction: column;
+		border-radius: 4px;
+		box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+img._profile_control_img{
+		position:relative;
+		float: right;
+		right:-15%;
+		top:-100px;
+		width:50px;
+		padding-right:5%;
+		padding-top:20%;
+}
+
+h1 {
+		padding: 35px 35px 0 35px;
+		font-weight: 300;
+}
+
+div._content {
+		padding: 35px;
+		text-align: center;
+}
+
+div._input_field {
+		padding: 12px 5px;
+}
+
+div._input_field input {
+		font-size: 16px;
+		display: block;
+		font-family: 'Oswald regular', sans-serif;
+		width: 100%;
+		padding: 10px 1px;
+		border: 0;
+		border-bottom: 1px solid #747474;
+		outline: none;
+		-webkit-transition: all .2s;
+		transition: all .2s;
+}
+
+a._link {
+		text-decoration: none;
+		color: #747474;
+		letter-spacing: 0.2px;
+		text-transform: uppercase;
+		display: inline-block;
+		margin-top: 20px;
+}
+
+a._link:hover {
+		color: black;
+}
+
+button {
+		width: 100%;
+		border: none;
+		padding: 18px;
+		font-family: 'Oswald regular', sans-serif;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size:20px;
+		background: #4C9A2A;
+		color: white;
+		border-bottom-right-radius: 0;
+		letter-spacing: 0.2px;
+}
+
+button:hover {
+		background: green;
+}
+
+button:nth-child(2) {
+		background: #187BCD;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 4px;
+}
+
+button:nth-child(2):hover {
+		background: blue;
+}

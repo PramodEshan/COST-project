@@ -1,10 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--DOCTYPE html-->
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="homecss.css">
+    <title>About us</title>
+	<style>
+		*{
+			font-family:"Oswald regular";
+		}
+		p._title{
+			text-align:center;
+			color:white;
+			line-height: 0.5em;
+			font-size:60px;
+			padding-top:2%;
+		}
+		img._profile{
+			padding-top:10px;
+			width:300px;
+			filter: drop-shadow(10px 10px 0px black);
+		}
+		td{
+			text-align:center;
+		}
+		div._name{
+			position:relative;
+			float:bottom;
+			left:40%;
+			top:-80px;
+			padding:10px 30px 10px 20px;
+			background-color:white;
+			width:40%;
+			text-align:left;
+			font-weight:bold;
+			font-size:30px;
+			filter: drop-shadow(10px 10px 0px black);
+		}
+		#subtitle{
+			text-align:left;
+			font-size:15px;
+		}
+	</style>
 </head>
-<body>
-
+<body bgcolor="#28085d">
+	<div class="_topbar">
+		<img class="_page_logo" src="./img/logos/logo.png">
+		<div class="_profile_control">
+			<a href="homepage.html"><img class="_profile_control_img" src="./img/icon/home.png"></a>
+			<a href="userlogin.html"><img class="_profile_control_img" src="./img/icon/login.png"></a>
+			<form><input type="image" class="_profile_control_img" src="./img/icon/back.png" onclick="history.back()"/></form>
+		</div>
+	</div>
+	<div>
+		<center>
+			<table border="0" width="90%" height="80%">
+				<tr>
+					<td colspan="3">
+						<p class="_title" id="headline">We Are a team of expert designers</p>
+						<hr width="60%">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img class="_profile" src="./img/profile/1.jpg">
+						<div class="_name">
+							<p>PRAMOD</p>
+							<p id="subtitle">Pramod Eshan Hettigoda<br>B.Sc. Physics and Electronics (UG)<br>University of Kelaniya<br>Contact : 077 27 41 400<br> Email : pramodeshanhettigoda@gmail.com</p>
+						</div>
+					</td>
+					<td>
+						<img class="_profile" src="./img/profile/2.jpg">
+						<div class="_name">
+							<p>DIMUTHU</p>
+							<p id="subtitle">Dimuthu Suravinda<br>B.Sc. Physics and Electronics (UG)<br>University of Kelaniya<br>Contact : 076 87 34 285<br> Email : dimuthusuravinda2@gmail.com</p>
+						</div>
+					</td>
+					<td>
+						<img class="_profile" src="./img/profile/3.jpg">
+						<div class="_name">
+							<p>ANUSHKA</p>
+							<p id="subtitle">Anushka Hapuarachchi<br>B.Sc. Physics and Electronics (UG)<br>University of Kelaniya<br>Contact : 076 64 64 370<br> Email : anushkaruc@gmail.com</p>
+						</div>
+					</td>
+				</tr>
+		</center>
+	</div>
 </body>
 </html>
